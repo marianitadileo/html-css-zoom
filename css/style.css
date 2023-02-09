@@ -5,3 +5,54 @@
     box-sizing: border-box;
 }
 
+/* COMMON  */
+body {
+    background-color: #000000;
+}
+
+/* HEADER  */
+.view, .arrow {
+    background-color: #4A4A4A;
+    padding: 5px;
+    color: white;
+    
+}
+
+
+/* MAIN  */
+.wrapper {
+    background-color: #000000;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.call-image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 25px;
+    
+}
+
+.square {
+    width: calc(100% / 7 - 30px);
+    position: relative;
+
+}
+
+.square img {
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    background-color: rgb(127, 127, 127, 0.6);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 3px;
+
+}
