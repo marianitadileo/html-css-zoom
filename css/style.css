@@ -11,20 +11,39 @@ body {
 }
 
 /* HEADER  */
+
+.view-call-f, .view-call-s {
+    position: relative;
+}
+
+.view-call-f {
+    position: absolute;
+    top: 0;
+    right: 35px;
+}
+
+.view-call-s {
+    position: absolute;
+    right: 5px;
+    top: 0;
+  
+}
 .view, .arrow {
     background-color: #4A4A4A;
     padding: 5px;
     color: white;
-    
+    top: 0;
+    right: 0px;
+    border-radius: 5px;
 }
 
 
 /* MAIN  */
 .wrapper {
     background-color: #000000;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
-
+    margin-top: 25px;
 }
 
 .call-image {
@@ -33,6 +52,7 @@ body {
     gap: 15px;
     justify-content: center;
     padding: 25px;
+    
     
 }
 
@@ -55,4 +75,46 @@ body {
     left: 0;
     padding: 3px;
 
+}
+
+/* FOOTER  */
+footer {
+    background-color: #222222;
+    font-size: 20px;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ ul {
+    color: white;
+    list-style-type: none;
+}
+
+.end-meet-button {
+    background-color: grey;
+    color: red;
+    height: 70px;
+    line-height: 70px;
+}
+
+.green {
+    color: green;
+}
+
+.options li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.off li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
 }
